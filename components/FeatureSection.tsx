@@ -17,7 +17,10 @@ export default function FeatureSection() {
           Where we drive out to
         </h2>
         <p className="mt-4 text-brand-text/80 max-w-prose leading-relaxed">
-          Based on Guadalupe Street, working jobs across Austin and the surrounding area.
+          Based on Guadalupe Street, working jobs across Austin and the surrounding area. Our trucks are stocked for both plumbing and electrical calls, so whether it is a slow drain on the east side or a breaker panel acting up near downtown, one visit usually covers it. We keep the service area tight on purpose. Staying close to home means shorter drive times, faster arrivals when something is leaking or sparking, and a crew that actually knows the older housing stock around Austin, from the pier and beam homes near South Congress to newer builds further north.
+        </p>
+        <p className="mt-4 text-brand-text/80 max-w-prose leading-relaxed">
+          Every neighborhood on this list gets the same crew, the same trucks, and the same up front pricing before any work starts. If an address falls outside this footprint, a quick call will tell you whether we can still make it out.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-x-3 gap-y-2 text-brand-text/80">
@@ -28,16 +31,16 @@ export default function FeatureSection() {
             </span>
           ))}
         </div>
+      </div>
 
-        <div className="mt-10 relative overflow-hidden w-full h-64 sm:h-80 rounded-none">
-          <Image
-            src="/images/gallery-4.jpg"
-            alt="Interior of an Austin home where Mendez Family Plumbing & Electrical performs service calls"
-            fill
-            sizes="100vw"
-            className="object-cover object-center saturate-[.95] contrast-[1.03]"
-          />
-        </div>
+      <div className="relative overflow-hidden w-screen h-64 sm:h-96">
+        <Image
+          src="/images/gallery-4.jpg"
+          alt="Interior of an Austin home where Mendez Family Plumbing & Electrical performs service calls"
+          fill
+          sizes="100vw"
+          className="object-cover object-center saturate-[.95] contrast-[1.03]"
+        />
       </div>
 
       <div className="bg-brand-primary py-12">
