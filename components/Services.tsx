@@ -31,7 +31,10 @@ export default function Services() {
           Plumbing and electrical work we handle
         </h2>
         <p className="mt-4 text-brand-text/80 max-w-prose leading-relaxed">
-          Most calls fall into a short list of jobs. Here is what shows up on the truck most often.
+          Most calls fall into a short list of jobs. Here is what shows up on the truck most often. Because the crew handles both plumbing and electrical work, a single visit can often cover more than one problem at a time, which saves a second trip and a second bill.
+        </p>
+        <p className="mt-4 text-brand-text/80 max-w-prose leading-relaxed">
+          Every job starts with a straightforward look at what is actually happening. Older Austin homes often carry both aging pipe and outdated wiring, so a technician checks for the obvious causes first, walks through the options in plain language, and confirms a price before anything gets opened up. No guesswork, no upselling, just a clear read on what needs fixing and what it will cost to fix it.
         </p>
 
         <div className="mt-10 relative overflow-hidden w-full aspect-[3/4] max-w-xs mx-auto rounded-none">
